@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Appointment Availability </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    </head>
+    <body>
+        <center>
+            <h2>Get Availability of Covid-19 Vaccine Doses Pin Code wise.</h2>
+            <!-- <img src="vaccine-logo-680x510px.jpg" alt="vaccine" width="500" height="400" style="float:left"> -->
+            <div class="body">
+                <table>
+                    <tr>
+                        <td style="color:black; font-weight:bolder;">Pin Code:</td>
+                        <td><input type="text" name="pincode" id="pin" placeholder="Enter 7 digit pin code"><br></td>
+                    </tr>
+                    <tr>
+                        <td style="color: black; font-weight:bolder;">Date:</td>
+                        <td><input type="text" name="date" id="date" placeholder="dd-mm-yyyy"><br></td>
+                    </tr>
+                    <tr>   
+                        <td colspan="2" align="center"><button type="submit" onclick="getDetails()" autofocus>Check Availability</button></td>
+                    </tr>
+                </table><br>
+            </div>
+            <div id="details"></div>
+        </center>
+        <footer>
+            <strong style="color: rgb(23, 3, 46); font-family:serif">Stopping the spread starts with you.</strong><br>
+            <p>Wear a mask.</p>
+            <p>Clean your hands.</p>
+            <p>Maintain safe distance</p>
+            <p>Get vaccinated</p>
+            <p style="color: black;">STAY HOME - STAY SAFE</p>
+            <p>For more info on Covid <a href="https://www.mohfw.gov.in/" style="color: rgb(22, 22, 21);">click-here</a></p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

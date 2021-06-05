@@ -1,0 +1,43 @@
+h2{ 
+    text-align: center;
+    color: rgb(9, 9, 100);
+    background-color:#b1e9ed ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body{
+    margin:0px;
+}
+.body{
+    background-image: url('vaccine-logo-680x510px.jpg');
+    padding: 200px 200px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-blend-mode: darken;
+    /* opacity: 0.7; */
+    margin-bottom: 30px;
+    -webkit-font-smoothing:antialiased;
+    color:#333332;
+    font-family:Lora, serif;
+    font-size:18px;
+    font-weight:400;
+    line-height:1.4;
+    text-rendering:optimizeLegibility;}
+    
+.button{
+    background-color: yellow;
+}
+button:hover{
+    background: rgba(6, 54, 82, 0.295);
+}
+footer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #b1e9ed;
+    text-align: center;
+    padding-bottom: 3px;
+    color: white;
+}
+p{
+    color: rgb(23, 3, 46);
+}

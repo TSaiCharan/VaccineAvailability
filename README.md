@@ -1,0 +1,1 @@
+A simple website that shows the real time data of vaccine availability at prefed area. One can view the available slots based on area pincode. Here the real time data is obtained using 'Appointment Availability API' that is present on COWIN portal.
